@@ -311,7 +311,7 @@ export default function LiSKeuzetool() {
         );
         return true;
       }
-      setStatusMsg("Verzonden naar rob@creja.nl");
+      setStatusMsg("Uw advies is opgeslagen");
       return true;
     } catch (e) {
       setStatusMsg(`Verzenden mislukt (network): ${e.message}`);
